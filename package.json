@@ -1,0 +1,23 @@
+{
+  "name": "javascript-async-defer-patterns",
+  "version": "1.0.0",
+  "description": "A project showcasing various examples of JavaScript loading in the browser",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "./webpack-examples/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janechu/javascript-async-defer-patterns.git"
+  },
+  "author": "Jane Chu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janechu/javascript-async-defer-patterns/issues"
+  },
+  "homepage": "https://github.com/janechu/javascript-async-defer-patterns#readme"
+}
