@@ -1,0 +1,1 @@
+(self.webpackChunkcommon_bundles_example=self.webpackChunkcommon_bundles_example||[]).push([[675],{155:e=>{e.exports={exec:function(){const e=document.getElementById("reachable");console.log("eager",e)}}},377:e=>{e.exports={exec:function(){const e=document.getElementById("reachable");console.log("lazy",e)}}}}]);
