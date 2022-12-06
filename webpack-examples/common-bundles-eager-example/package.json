@@ -1,0 +1,25 @@
+{
+  "name": "common-bundles-eager-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "Jane Chu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janechu/javascript-async-defer-patterns.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "defer-lazy": "^1.0.0",
+    "defer-eager": "^1.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
