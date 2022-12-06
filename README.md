@@ -15,3 +15,4 @@ These examples seek to inform how loading patterns are best optimized.
 | Common Bundles | Bundling shared dependencies together and lazy loading them |
 | Common Bundles Eager | Bundling shared dependencies together and eagerly loading them |
 | Deduplicate | Bundling shared dependencies to de-duplicate any that might be eagerly or lazy loaded and force them to be eagerly loaded, this is done automatically by webpack |
+| Deduplicate Common Bundles | Bundling multiple lazy loaded bundles and deduplicating dependencies shared between them |
