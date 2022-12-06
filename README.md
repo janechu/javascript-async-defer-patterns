@@ -11,3 +11,4 @@ These examples seek to inform how loading patterns are best optimized.
 | Name | Description |
 |-|-|
 | Defer | Using the typical webpack setup the entry point script is deferred until the page content is loaded and any scripts specified to be lazy loaded are delayed |
+| On Demand | Lazy loaded scripts are only loaded once a user action has been achieved |
