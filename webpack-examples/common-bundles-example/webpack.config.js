@@ -16,7 +16,7 @@ module.exports = {
             template: "./src/index.html",
         }),
         new BundleAnalyzerPlugin({
-            analyzerMode: "json"
+            analyzerMode: "static"
         }),
     ],
     devServer: {
