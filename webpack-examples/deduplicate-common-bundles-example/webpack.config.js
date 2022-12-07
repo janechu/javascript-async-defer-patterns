@@ -1,3 +1,4 @@
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
@@ -13,7 +14,10 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.html",
-        })
+        }),
+        new BundleAnalyzerPlugin({
+            analyzerMode: "json"
+        }),
     ],
     devServer: {
         open: true,

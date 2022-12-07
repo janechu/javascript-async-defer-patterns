@@ -15,10 +15,16 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "defer-lazy": "^1.0.0",
+    "common-bundles-example": "^1.0.0",
+    "deduplicate-common-bundles-example": "^1.0.0",
+    "deduplicate-example": "^1.0.0",
     "defer-eager": "^1.0.0",
+    "defer-example": "^1.0.0",
+    "defer-lazy": "^1.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "on-demand-example": "^1.0.0",
     "webpack": "^5.75.0",
+    "webpack-bundle-analyzer": "^4.7.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
   }
